@@ -5,8 +5,9 @@ import Hero from '@/components/Hero';
 import MediationSection from '@/components/MediationSection';
 import ServicesSection from '@/components/ServicesSection';
 import Contact from '@/components/Contact';
-import SomethingSection from '@/components/SomethingSection';
 import NegotiationSection from '@/components/NegotiationSection';
+import MediationsInfo from '@/components/MediationsInfo';
+import NegotiationsInfo from '@/components/NegotiationsInfo';
 
 export default function Home() {
   return (
@@ -15,9 +16,9 @@ export default function Home() {
       <Hero />
       <AboutSection />
       <ServicesSection />
-      <SomethingSection />
+      <MediationsInfo />
       <MediationSection />
-      <Contact />
+      <NegotiationsInfo />
       <NegotiationSection />
       <Contact />
       <Footer />

@@ -31,7 +31,7 @@ const Navbar = () => {
         </a>
         <a
           className='md:px-3 lg:px-4 py-1 hover:text-[#cdad7d]'
-          href='#mediation'
+          href='#mediations'
         >
           Mediacje
         </a>

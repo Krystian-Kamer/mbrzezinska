@@ -4,7 +4,7 @@ import Wrapper from '@/ui/Wrapper';
 
 const AboutSection = () => {
   return (
-    <section id='about' className='w-full h-fit bg-[#f8f6f4]'>
+    <section id='about' className='w-full h-fit bg-[#f8f6f4] scroll-mt-[72px]'>
       <Wrapper>
         <div className='flex flex-col md:flex-row md:gap-x-10'>
           <div>

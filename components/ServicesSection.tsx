@@ -68,7 +68,7 @@ const ServicesSection = () => {
   return (
     <section
       id='services'
-      className='w-full h-fit bg-[#02081b]/85 text-white relative'
+      className='w-full h-fit bg-[#02081b]/85 text-white relative scroll-mt-[72px]'
     >
       <Image
         src={taxImg}
