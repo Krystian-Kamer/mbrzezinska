@@ -10,6 +10,7 @@ import MediationsInfo from '@/components/MediationsInfo';
 import NegotiationsInfo from '@/components/NegotiationsInfo';
 
 export default function Home() {
+    console.log('hello')
   return (
     <div className='font-serif'>
       <Navbar />
