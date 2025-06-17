@@ -3,6 +3,7 @@ import { FaInstagram, FaLinkedin } from 'react-icons/fa6';
 import { LuMenu } from 'react-icons/lu';
 import { motion, useScroll, useMotionValueEvent } from 'framer-motion';
 import { useState } from 'react';
+import Logo from '../ui/Logo'
 
 const Navbar = () => {
   const { scrollY } = useScroll();
@@ -18,7 +19,7 @@ const Navbar = () => {
         isScrolled ? 'bg-black/60' : 'bg-transparent'
       }`}
     >
-      <a href='#hero'>Martyna Brzezińska</a>
+      <a className='h-10 w-20 mt-1 md:mt-0 px-4 md:px-0' href='#hero'><Logo logoColor = 'white'/></a>
       <div className='hidden md:flex uppercase text-base'>
         <a className='md:px-3 lg:px-4 py-1 hover:text-[#cdad7d]' href='#about'>
           O mnie
@@ -52,7 +53,13 @@ const Navbar = () => {
         <a className='px-2 py-1 hover:text-[#cdad7d]' href='link'>
           <FaInstagram />
         </a>
-        <a className='px-2 py-1 hover:text-[#cdad7d]' href='link'>
+        <a
+            className='px-2 py-1 hover:text-[#cdad7d]'
+            href='https://www.linkedin.com/in/martynabrzezinska/'
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="LinkedIn profile"
+        >
           <FaLinkedin />
         </a>
         <div className='md:hidden px-2 py-1 hover:text-[#cdad7d] cursor-pointer'>

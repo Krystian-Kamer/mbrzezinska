@@ -7,3 +7,17 @@
 html {
   scroll-behavior: smooth;
 }
+
+@font-face {
+  font-family: 'Lavishly Yours';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/LavishlyYours-Regular.ttf') format('truetype');
+}
+
+@layer utilities {
+  .font-logo {
+    font-family: 'Lavishly Yours', cursive;
+  }
+}
+

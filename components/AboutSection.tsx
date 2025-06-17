@@ -1,14 +1,16 @@
 import Image from 'next/image';
 import authorImg from '../assets/author-img.jpg';
 import Wrapper from '@/ui/Wrapper';
+import Logo from '@/ui/Logo';
 
 const AboutSection = () => {
   return (
     <section id='about' className='w-full h-fit bg-[#f8f6f4] scroll-mt-[72px]'>
       <Wrapper>
-        <div className='flex flex-col md:flex-row md:gap-x-10'>
+        <div className='flex flex-col md:flex-row  md:gap-x-10'>
           <div>
-            <p className='mb-6 text-center'>Logo</p>
+            <div className='h-10 w-20 mb-4 justify-self-center'><Logo logoColor = "black"/>
+            </div>
             <p className='mb-6 uppercase text-[#cdad7d] text-center sm:text-xl'>
               Martyna Brzezińska
             </p>

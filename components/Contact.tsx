@@ -22,7 +22,7 @@ const Contact = () => {
         />
         <label htmlFor='name'>Twoja wiadomość</label>
         <textarea className='bg-[#e3d9c9] px-2 py-2 mb-4 h-50 max-h-50 min-h-50 rounded-sm focus:outline focus:outline-[#bf9757]' />
-        <button className='border-[#dec193] border-2 w-50 self-center text-[#bf9757]  uppercase py-3 cursor-pointer hover:text-black hover:bg-[#dec193] duration-200'>
+        <button className='border-[#dec193] border-2 w-50 self-center text-[#bf9757]  uppercase py-3 cursor-pointer hover:text-black hover:bg-[#dec193] duration-200 hover:border-black'>
           wyślij
         </button>
       </form>
