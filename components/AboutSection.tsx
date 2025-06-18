@@ -9,7 +9,7 @@ const AboutSection = () => {
       <Wrapper>
         <div className='flex flex-col md:flex-row  md:gap-x-10'>
           <div>
-            <div className='h-10 w-20 mb-4 justify-self-center'><Logo logoColor = "black"/>
+            <div className='h-10 w-20 mx-auto mb-4 '><Logo logoColor = "black"/>
             </div>
             <p className='mb-6 uppercase text-[#cdad7d] text-center sm:text-xl'>
               Martyna Brzezińska

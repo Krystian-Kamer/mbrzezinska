@@ -10,6 +10,7 @@ const Footer = () => {
                 <div>
                     <div>Martyna Brzezińska</div>
                     <div>brzezinskasm@gmail.com</div>
+                    <div>726-400-625</div>
                 </div>
                 <button className='border-1 cursor-pointer border-[#dec193] text-[#dec193] hover:bg-black tracking-wider text-[12px] px-6 py-2'>
                     Umów spotkanie
