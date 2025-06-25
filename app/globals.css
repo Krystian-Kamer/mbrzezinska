@@ -1,23 +1,50 @@
 @import 'tailwindcss';
 
 @theme {
-  --breakpoint-3xl: 1600px;
+    --breakpoint-3xl: 1600px;
 }
 
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
 @font-face {
-  font-family: 'Lavishly Yours';
-  font-style: normal;
-  font-weight: 400;
-  src: url('/fonts/LavishlyYours-Regular.ttf') format('truetype');
+    font-family: 'Lavishly Yours';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/fonts/LavishlyYours-Regular.ttf') format('truetype');
 }
 
 @layer utilities {
-  .font-logo {
-    font-family: 'Lavishly Yours', cursive;
-  }
+    .font-logo {
+        font-family: 'Lavishly Yours', cursive;
+    }
 }
 
+.bg-dark {
+    background-color: color-mix(in oklab, #02081b 85%, transparent)
+}
+
+.bg-light {
+    background-color: #f8f6f4;
+}
+
+.text-dark {
+    color: color-mix(in oklab, #02081b 85%, transparent)
+}
+
+.text-light {
+    color: #f8f6f4;
+}
+
+.text-accent {
+    color: rgba(205, 173, 125, 0.99)
+}
+
+.border-accent {
+    border-color: rgba(205, 173, 125, 0.99)
+}
+
+.input-bg {
+    color: #e3d9c9
+}
