@@ -19,6 +19,7 @@ const Contact = () => {
         setIsAfterSubmittMessage('Wiadomość wysłano pomyślnie');
       })
       .catch((err) => {
+        console.log(err);
         setIsAfterSubmittMessage('Coś poszło nie tak, spróbuj później');
       })
       .finally(() => {
